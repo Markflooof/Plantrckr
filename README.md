@@ -40,18 +40,20 @@ Click the link to watch https://www.youtube.com/watch?v=Su2JlF33ROc
 
 ## Researcher/Developer:
 
-• Art Kenneth Vida
+• Oflear, Mark Angelo M.
 
-• Jhun Fermin III, B. Villamor
+• Loba, Janna Krisna F.
 
-• Karizza B. Hipolito
+• Pojas, Kurt Stephen J.
 
-• Mary Ann F. Rivera
+• Soriano, Bert Bryan J.
+
+• Villamor, Ma. Louise Faye E.
 
 
 ## Adviser:
 
-• JeffersonA. Costales
+• Jefferson A. Costales
 
 
 ## School Name:
