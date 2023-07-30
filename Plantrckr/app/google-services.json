@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "556769341282",
+    "firebase_url": "https://plantrckr-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "plantrckr",
+    "storage_bucket": "plantrckr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:556769341282:android:43b53919a747a8f710863b",
+        "android_client_info": {
+          "package_name": "com.example.plantrckr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "556769341282-fnqeqekn2qv6gb0h5ed7r7tjuju7carl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvPZ22-UCofPtIUFzkHKMa_UFQ3N7CoM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "556769341282-bsoutqqjsrbse8602etulb9gvg21s8m4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

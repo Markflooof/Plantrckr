@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".SignActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="730dp"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:background="#28CC9E">
+
+        <LinearLayout
+            android:layout_width="378dp"
+            android:layout_height="697dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:text="SIGN UP"
+                android:textColor="#195441"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/sign_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="5pt"
+                android:layout_marginRight="4pt"
+                android:hint="Email Address"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="5pt"
+                android:layout_marginRight="4pt"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/sign_password"
+                    android:layout_width="324dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000" />
+
+                <CheckBox
+                    android:id="@+id/password_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="5pt"
+                android:layout_marginRight="4pt"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/sign_password2"
+                    android:layout_width="324dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:textColor="#000000"
+                    android:textColorHint="#000000" />
+
+                <CheckBox
+                    android:id="@+id/conpass_checkbox"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:minWidth="0dp"
+                    android:minHeight="0dp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/sign_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="5pt"
+                android:layout_marginRight="4pt"
+                android:hint="First Name"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/sign_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="5pt"
+                android:layout_marginRight="4pt"
+                android:hint="Last Name"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/sign_contact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="5pt"
+                android:layout_marginRight="4pt"
+                android:hint="Contact Number"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/sign_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="5pt"
+                android:layout_marginRight="4pt"
+                android:hint="Address"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/sign_birthday"
+                android:layout_width="363dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="5pt"
+                android:layout_marginRight="4pt"
+                android:hint="Date of Birth"
+                android:ems="10"
+                android:inputType="date"
+                android:textColor="#000000"
+                android:textColorHint="#000000"/>
+
+            <Button
+                android:id="@+id/btn_sign"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="10pt"
+                android:layout_marginRight="4pt"
+                android:backgroundTint="#2E9462"
+                android:text="SIGN UP" />
+
+            <Button
+                android:id="@+id/btn_back"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="5pt"
+                android:layout_marginRight="4pt"
+                android:backgroundTint="#2E9462"
+                android:text="BACK" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

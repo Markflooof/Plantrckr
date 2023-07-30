@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="730dp"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp"
+        android:background="#28CC9E">
+
+        <LinearLayout
+            android:layout_width="378dp"
+            android:layout_height="372dp"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="345dp"
+                android:layout_height="wrap_content"
+                android:text="LOG IN"
+                android:textColor="#195441"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtbox_username"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="10pt"
+                android:layout_marginRight="4pt"
+                android:hint="Email Address"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <EditText
+                android:id="@+id/txtbox_password"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="10pt"
+                android:layout_marginRight="4pt"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textColor="#000000"
+                android:textColorHint="#000000" />
+
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="10pt"
+                android:layout_marginRight="4pt"
+                android:backgroundTint="#2E9462"
+                android:text="LOG IN" />
+
+            <Button
+                android:id="@+id/btn_signup"
+                android:layout_width="360dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4pt"
+                android:layout_marginTop="10pt"
+                android:layout_marginRight="4pt"
+                android:backgroundTint="#2E9462"
+                android:text="SIGN UP" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
