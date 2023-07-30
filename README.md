@@ -1,24 +1,18 @@
-****PathFinder****
+# Plantrckr
 
-This study on the experienced of visually impaired people involved in the implementation of assistive technology through mobile phones. The algorithms was tested to existing datasets, enhanced and added trained datasets, discussed the results and their relevance, the analysis of the results, and highlight the implications of this study.
-
-
-
-**Overview**
-
-This is an application for TensorFlow Lite on Android. It uses image classification to continuously classify objects it sees from the device's back camera. Inference is performed using the TensorFlow Lite Java API. The app classifies frames in real-time, displaying the top most probable classifications. Menu
+Plantrckr is a comprehensive subscription monitoring and management application designed to simplify the way you handle recurring expenses. In this fast-paced digital era, subscriptions have become an integral part of our daily lives, providing us with entertainment, productivity tools, fitness programs, and much more. However, keeping track of multiple subscriptions across various platforms can be overwhelming and lead to unnecessary expenses.
 
 
-
-**Requirements**
-
-Android Studio 4.0 (installed on a Mac, Linux, or Windows machine)
-Android device in developer mode with USB debugging enabled
-USB cable (to connect Android device to your computer)
+## Overview
+Plantrckr is a subscription monitoring and management application developed in android studio that is designed to assist users in tracking and optimizing their recurring expenses. In an era where subscriptions have become an integral part of daily life, managing multiple services can be challenging and lead to financial inefficiencies. 
 
 
+## Requirements
 
-**Features**
+• Android 6.0 (Marshmallow)
+
+
+## Features
 
 1. Detection of common objects
 Detect Object
@@ -39,43 +33,43 @@ Face Analyzer
 GPS tracker
 
 
+## Demo Video
 
-**Demo Video**
-
-Click the link to watch https://youtu.be/isGAerr6FmI
-
+Click the link to watch https://www.youtube.com/watch?v=Su2JlF33ROc
 
 
-**Researcher/Developer:**
+## Researcher/Developer:
 
-Art Kenneth Vida
-Jhun Fermin III, B. Villamor
-Karizza B. Hipolito
-Mary Ann F. Rivera
+• Art Kenneth Vida
 
+• Jhun Fermin III, B. Villamor
 
+• Karizza B. Hipolito
 
-**Adviser:**
-
-JeffersonA. Costales
+• Mary Ann F. Rivera
 
 
+## Adviser:
 
-**School Name:**
+• JeffersonA. Costales
+
+
+## School Name:
 
 Eulogio "Amang" Rodriguez Insitute of Science and Technology
+
 Nagtahan, Sampaloc, Manila, Philippines
+
 College of Arts and Sciences
+
 ITE Department
 
 
+## Course:
 
-**Course:**
-
-Bachelor of Science in Information Technology
-
+• Bachelor of Science in Information Technology
 
 
-**Date:**
+## Date:
 
-July 30, 2023
+• July 30, 2023
