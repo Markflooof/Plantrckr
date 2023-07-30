@@ -14,23 +14,19 @@ Plantrckr is a subscription monitoring and management application developed in a
 
 ## Features
 
-1. Detection of common objects
-Detect Object
+1. Edit Profile
 
-2. Text Reader
-Text Reader
+2. Cash In
+   
+3. Cash Out
 
-3. Money Reader
-Money Reader
+4. Add Subscription
 
-4. Face Recognition
-Face Recognition
+5. Edit/Delete Subscription
 
-5. Face Analyzer (Gender & Age Estimation)
-Face Analyzer
+6. Pay Subscription
 
-6. GPS Tracker
-GPS tracker
+7. Payment History
 
 
 ## Demo Video
